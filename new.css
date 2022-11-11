@@ -1,0 +1,246 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.bg {
+    position: relative;
+    opacity: 0.90;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url("https://www.medianama.com/wp-content/uploads/2021/02/Bitcoin-Crypto.jpg"); */
+    /* background-image: url("http://infoversetech.com/assets/1.gif"); */
+    background-image: url("https://media0.giphy.com/media/doXBzUFJRxpaUbuaqz/giphy.gif?cid=790b761151d488f77f8d44984de478d74fd2db4df98e9145&rid=giphy.gif&ct=g");
+    
+
+    /* background-image: url('giphy.gif'); */
+    min-height: 700px;
+    max-height: max-content;
+
+    background-repeat:repeat;
+  }
+
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    }
+
+
+    .caption a{ 
+        font-size: 50px;
+        border-radius: 5px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(0, 140, 255,0);
+        transition: all 200ms ease-in-out;
+        text-decoration: none;
+        letter-spacing: 10px;
+        font-weight: 900;
+    }
+
+    .caption a  {
+        background-color:rgb(255, 251, 0);
+        box-shadow: 1px 0.4em 3em rgb(117, 146, 63);
+        transform: translateY(-0.15em);
+    }
+/* .bg{
+    
+    background-image: linear-gradient(rgb(211, 210, 223) , rgb(129, 130, 189));
+} */
+.navbarr{
+
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+    height: 60px;
+    background-image: linear-gradient(rgb(95, 120, 187),#282E34);
+    border: 0.1% solid black;
+}
+
+.navv{
+    margin-top: 15px;
+    position: sticky;
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Fjalla One', sans-serif;
+    
+
+}
+
+.navv a{
+    border-radius: 8px;
+    margin: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration:solid;
+    text-transform: uppercase;
+    background-color:rgb(248, 216, 126);
+    box-shadow: 2px 0.1em  0.1em rgb(231, 178, 33);
+    transition: all 200ms ease-in-out;
+}
+
+/* #logo>h3{
+    margin-left: 30%;
+    font-stretch: ultra-expanded;
+    font-family: 'Lexend Zetta', sans-serif;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    font-size:x-large;
+} */
+ 
+/* #logo{
+    justify-content: end;
+} */
+
+.navv a:hover{
+    color: rgb(0, 0, 0);
+    background-color:rgb(255, 230, 0);
+    box-shadow: 2px 0.1em  1em rgb(255, 166, 0);
+    transform: translateY(-0.15em);
+}
+
+
+
+
+#newsAccordion{
+    background-color:rgb(216, 212, 233);
+    box-shadow: 0.4px 0.3em 1em rgb(8, 33, 173);
+    transform: translate(-0.15em);
+}
+
+#news{
+    max-width: 1150px;
+}
+
+
+
+table{
+    background-color:rgb(75, 39, 238);
+    box-shadow: 0.4px 0.3em 1em rgb(8, 33, 173);
+    transform: translateY(-0.15em);
+    max-width: 1150px;
+}
+
+
+#data{
+    text-align: left;
+    font-weight: 550;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+}
+
+
+
+h3{
+    color: azure;
+    padding-top: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    margin-left: 90px;
+}
+
+#crypto-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 50px;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+.crypto-image-container {
+    width: 300px;
+    margin: 30px;
+    position: relative;
+}
+
+.crypto-image-container img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
+
+.crypto-image-container img:hover {
+    
+    box-shadow: 1px 0.4em 6em #74ADC8;
+    background-color: rgba(211, 211, 211, 0.849);
+    transform: translateY(-0.15em);
+    opacity: 1;
+}
+
+
+
+.mid-bg{
+    background-image: linear-gradient(#282E34,rgb(95, 120, 187));
+}
+
+.mid-bg-1{
+    background-image: linear-gradient(rgb(95, 120, 187),#282E34);
+}
+
+
+
+#foooter>h3>span>a>i{
+
+    color: rgb(14, 13, 13);
+    margin : 10px;
+    border-radius: 1px;
+    transition: all 200ms ease-in-out;
+}
+
+#foooter>h3>span>a>i:hover{
+    background-color:aliceblue;
+    /* box-shadow: 0.4px 0.3em 1em rgb(8, 33, 173); */
+    transform: translateY(-0.15em);
+}
+
+
+
+
+/* h2{
+    color: rgb(236, 196, 110);
+    margin-top: 4px;
+} */
+
+
+.disclaimer{
+    margin-left: 75%;
+}
+
+
+/* #footer{
+    height: 70px;
+    background-color: #009688;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#footer>h2>span>a>i{
+    color: whitesmoke;
+    margin : 0px 0px;
+
+}
+
+#footer>h2>span>a>i:hover{
+    background-color:rgb(75, 39, 238);
+    box-shadow: 0.4px 0.3em 1em rgb(8, 33, 173);
+    transform: translateY(-0.15em);
+} */

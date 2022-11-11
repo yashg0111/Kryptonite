@@ -1,0 +1,46 @@
+.login{
+    width: 250px;
+    margin-top: 200px;
+    margin-left: 80px;
+}
+
+
+body
+{
+    background-image: url(thumb-cryptocurrency-zeux.jpg);
+    background-size:auto;
+    
+}
+
+.form-label
+{
+    color: antiquewhite;
+}
+
+
+button{
+    margin-top: 10px;
+    border-style: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 140, 255,0);
+    border-radius: 15px;
+    transition: all 200ms ease-in-out;
+}
+
+button:hover  {
+    background-color:rgb(34, 36, 161);
+    box-shadow: 1px 0.4em 3em rgb(63, 64, 146);
+    transform: translateY(-0.15em);
+}
+
+.form-control{
+    border-radius: 10px;
+    border-style:none;
+}
+
+.form-control:hover , .form-control:focus{
+    /* background-color:#111fe2; */
+    box-shadow: 1px 0.4em 1em rgb(81, 83, 175);
+    transform: translateY(-0.15em);
+}
+
